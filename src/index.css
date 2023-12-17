@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .headingText {
+    @apply bg-gradient-to-r from-[#193C8F] via-[#442dba] to-[#5069e4] inline-block text-transparent bg-clip-text;
+  }
+
+  .insideText {
+    @apply bg-gradient-to-r from-[#f4f4f5] via-[#e0e0e2] to-[#cdced2] inline-block text-transparent bg-clip-text;
+  }
+
+  .buttonGrad{
+    @apply bg-gradient-to-r from-[#f4f4f5] via-[#e0e0e2] to-[#cdced2]
+  }
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
