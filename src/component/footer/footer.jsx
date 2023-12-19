@@ -83,7 +83,11 @@ export const Footer = () => {
           </div>
         </div>
         <div>
-          <ul></ul>
+          <div className="w-full h-[.15rem] bg-white mt-10"></div>
+          <div className="flex flex-col justify-center items-center mt-5">
+            <p>Code of Conduct</p>
+            <p>IEEE © 2023 - All Rights Reserved</p>
+          </div>
         </div>
       </footer>
     </>
