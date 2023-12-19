@@ -4,9 +4,11 @@ import { Activities } from "./component/Activities";
 import { Committe } from "./component/Committee";
 import EventPage from "./component/EventPage";
 import { Flex } from "./component/Flex";
-import { Gallert } from "./component/Gallery";
+// import { Gallery } from "./component/Gallery";
 import { Header } from "./component/Header";
 import { Navbar } from "./component/Navbar";
+import { Footer } from "./component/footer/footer";
+// import Footer from "./component/footer/footer";
 import imageData from "./images.json";
 
 //   // Form page component logic goes here
@@ -40,8 +42,7 @@ function App() {
       <Committe />
       <Activities />
       <EventPage />
-      {/* <GalleryComponent images={images} /> */}
-      {/* <Gallert /> */}
+      <Footer />
     </>
   );
 }

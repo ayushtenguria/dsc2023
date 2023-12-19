@@ -1,32 +1,18 @@
-import { Fade } from "react-reveal";
-import Gallery from "react-grid-gallery";
-import ImagesData from "../images.json";
-import {
-  useWindowSize,
-  useWindowWidth,
-  useWindowHeight,
-} from "@react-hook/window-size";
+import Galleria from "./gallery/Gallery";
 
-export const Gallert = () => {
-  const onlyWidth = useWindowWidth();
-  let displayedImages = ImagesData.images; // Access the array under the "images" key
-
-  if (onlyWidth < 1199) {
-    displayedImages = displayedImages.slice(0, 4);
-  }
-
+export const Gallery = () => {
   return (
-    <div className="my-20">
-      <div className="flex justify-center">
-        <p className="headingText text-5xl font-bold">Gallery</p>
-      </div>
-      <div>
-        <Fade up>
-          <div>
-            <Gallery images={displayedImages} />
+    <>
+      <section className="bg-blue-800 my-20">
+        <div>
+          <div className="flex justify-center">
+            <p className="text-5xl font-bold insideText">Galleria</p>
           </div>
-        </Fade>
-      </div>
-    </div>
+          <div>
+            <Galleria/>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
