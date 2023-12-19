@@ -1,0 +1,33 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://i.ibb.co/ypJft11/Screenshot-from-2023-12-19-04-43-02.png",
+      "description": "Description for Image 1",
+      "width": 300,
+      "height": 200
+    },
+    {
+      "id": 2,
+      "url": "https://i.ibb.co/mSDDrQN/Screenshot-from-2023-12-19-04-39-34.png",
+      "description": "Description for Image 2",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": 3,
+
+      "url": "https://i.ibb.co/Gk5wjX5/Screenshot-from-2023-12-19-04-31-47.png",
+      "description": "Description for Image 3",
+      "width": 200,
+      "height": 350
+    },
+    {
+      "id": 2,
+      "url": "https://i.ibb.co/Q9JTN5j/Screenshot-from-2023-12-19-04-30-31.png",
+      "description": "Description for Image 2",
+      "width": 400,
+      "height": 300
+    }
+  ]
+}

@@ -11,10 +11,38 @@
     @apply bg-gradient-to-r from-[#f4f4f5] via-[#e0e0e2] to-[#cdced2] inline-block text-transparent bg-clip-text;
   }
 
-  .buttonGrad{
-    @apply bg-gradient-to-r from-[#f4f4f5] via-[#e0e0e2] to-[#cdced2]
+  .buttonGrad {
+    @apply bg-gradient-to-r from-[#f4f4f5] via-[#e0e0e2] to-[#cdced2];
   }
 }
+
+/* Add this to your styles.css or styles.scss file */
+
+/* Customize the styles as needed */
+
+.theme__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.header_line {
+  height: 2px;
+  background-color: #333; /* Adjust the color as needed */
+}
+
+.theme__head {
+  margin: 0 20px;
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+/* You may need to adjust the styles for the timeline elements based on your design */
+.vertical-timeline-element-title {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+/* Add more Tailwind CSS classes as per your design requirements */
 
 /* * {
   padding: 0;

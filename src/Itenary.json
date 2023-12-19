@@ -1,0 +1,52 @@
+{
+  "day1": {
+    "date": "2023-04-01",
+    "events": [
+      {
+        "title": "Kailash ki ghisayi",
+        "time": "10:00 AM",
+        "description": "The event kicks off with opening remarks."
+      },
+      {
+        "title": "Anshul kii Chudai",
+        "time": "11:00 AM - 2:00 PM",
+        "description": "Various workshops covering interesting topics."
+      },
+      {
+        "title": "rachna ki thukai ",
+        "time": "2:00 PM - 3:00 PM",
+        "description": "Enjoy a delicious lunch and networking."
+      },
+      {
+        "title": "Prerna ki pitayi",
+        "time": "3:00 PM - 5:00 PM",
+        "description": "Engaging panel discussion on industry trends."
+      }
+    ]
+  },
+  "day2": {
+    "date": "2023-04-02",
+    "events": [
+      {
+        "title": "Keynote Session",
+        "time": "9:30 AM",
+        "description": "A keynote address by a prominent speaker."
+      },
+      {
+        "title": "Breakout Sessions",
+        "time": "10:30 AM - 1:00 PM",
+        "description": "Interactive breakout sessions on various topics."
+      },
+      {
+        "title": "Lunch Break",
+        "time": "1:00 PM - 2:00 PM",
+        "description": "Enjoy a delicious lunch and networking."
+      },
+      {
+        "title": "Networking Event",
+        "time": "3:00 PM - 5:00 PM",
+        "description": "A fun-filled networking event."
+      }
+    ]
+  }
+}
