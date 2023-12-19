@@ -13,7 +13,7 @@ import eventData from "../Itenary.json";
 
 function Timeline() {
   const onlyWidth = useWindowWidth();
-  const [selectedDay, setSelectedDay] = useState("day1"); // Default to Day 1
+  const [selectedDay, setSelectedDay] = useState("day1"); 
 
   const handleDayChange = (day) => {
     setSelectedDay(day);

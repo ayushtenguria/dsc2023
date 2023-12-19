@@ -4,7 +4,7 @@ import { Activities } from "./component/Activities";
 import { Committe } from "./component/Committee";
 import EventPage from "./component/EventPage";
 import { Flex } from "./component/Flex";
-import GalleryComponent from "./component/Gallery";
+import { Gallert } from "./component/Gallery";
 import { Header } from "./component/Header";
 import { Navbar } from "./component/Navbar";
 import imageData from "./images.json";
@@ -40,7 +40,8 @@ function App() {
       <Committe />
       <Activities />
       <EventPage />
-      <GalleryComponent images={images} />
+      {/* <GalleryComponent images={images} /> */}
+      {/* <Gallert /> */}
     </>
   );
 }

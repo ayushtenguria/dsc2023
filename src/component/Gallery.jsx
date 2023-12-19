@@ -1,19 +1,32 @@
-import React from 'react';
-import Gallery from 'react-photo-gallery';
+import { Fade } from "react-reveal";
+import Gallery from "react-grid-gallery";
+import ImagesData from "../images.json";
+import {
+  useWindowSize,
+  useWindowWidth,
+  useWindowHeight,
+} from "@react-hook/window-size";
 
-const GalleryComponent = ({ images }) => {
-  const photoArray = images.map((image) => ({
-    src: image.url,
-    width: 500,
-    height: 300,
-    alt: image.description,
-  }));
+export const Gallert = () => {
+  const onlyWidth = useWindowWidth();
+  let displayedImages = ImagesData.images; // Access the array under the "images" key
+
+  if (onlyWidth < 1199) {
+    displayedImages = displayedImages.slice(0, 4);
+  }
 
   return (
-    <div className='max-w-7xl'>
-      <Gallery photos={photoArray} />
+    <div className="my-20">
+      <div className="flex justify-center">
+        <p className="headingText text-5xl font-bold">Gallery</p>
+      </div>
+      <div>
+        <Fade up>
+          <div>
+            <Gallery images={displayedImages} />
+          </div>
+        </Fade>
+      </div>
     </div>
   );
 };
-
-export default GalleryComponent;
